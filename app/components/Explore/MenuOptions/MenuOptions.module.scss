@@ -1,0 +1,24 @@
+.menu {
+	margin: 0 auto;
+	width: 40%;
+	> h2 {
+		margin-bottom: 50px;
+	}
+	> div {
+		margin-bottom: 40px;
+	}
+	> button {
+		background-color: #f9ce40;
+		color: #fff;
+		padding: 15px 30px;
+		border-radius: 30px;
+		font-size: 20px;
+		margin: 0 auto 100px;
+		display: block;
+		box-shadow: 0px 0px 10px #f9ce40;
+	}
+	.price {
+		display: flex;
+		gap: 20px;
+	}
+}

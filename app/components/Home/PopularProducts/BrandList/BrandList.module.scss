@@ -1,0 +1,30 @@
+.brand {
+	display: flex;
+	list-style: none;
+	margin-top: 50px;
+	overflow-x: scroll;
+	&::-webkit-scrollbar {
+		background-color: transparent;
+	}
+	> li {
+		margin-right: 50px;
+		padding: 15px;
+		cursor: pointer;
+		&.active {
+			background-color: #8daaff;
+			border-radius: 50%;
+			transform: scale(0.8);
+			animation: scaleIn 0.3s forwards;
+			color: #fff;
+		}
+	}
+}
+
+@keyframes scaleIn {
+	from {
+		transform: scale(0.8);
+	}
+	to {
+		transform: scale(1);
+	}
+}

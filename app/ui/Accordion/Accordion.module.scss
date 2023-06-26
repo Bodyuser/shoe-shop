@@ -1,0 +1,44 @@
+.accordion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid #f9ce40;
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 20px 0;
+	width: 60%;
+	transition: all 0.3s ease-in-out;
+	margin: 0 auto 40px;
+	> .title {
+		color: #f9ce40;
+		font-size: 20px;
+		background-color: transparent;
+		transition: all 250ms ease-in-out;
+		cursor: pointer;
+	}
+	> .content {
+		width: 100%;
+		padding: 0 15px;
+		transition: all 0.3s ease-in-out;
+		div {
+			width: 100%;
+		}
+		> div > div:last-child {
+			text-align: center;
+		}
+		input {
+			width: 100%;
+		}
+	}
+	&.open {
+		padding: 20px 0 5px;
+		background-color: #f9ce40;
+		> .title {
+			margin-bottom: 25px;
+			color: #fff;
+		}
+		> .content {
+			height: 100%;
+		}
+	}
+}

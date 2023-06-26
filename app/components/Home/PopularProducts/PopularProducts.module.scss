@@ -1,0 +1,57 @@
+.popularProducts {
+	.products {
+		> .heading {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			> a {
+				font-size: 18px;
+				color: #969498;
+			}
+		}
+		> ul {
+			display: flex;
+			overflow-x: scroll;
+			&::-webkit-scrollbar {
+				background-color: transparent;
+			}
+			> div {
+				height: 320px;
+				width: 270px;
+				margin-right: 50px;
+				border-radius: 30px;
+				padding: 30px 20px;
+				> .info {
+					> .title {
+						font-size: 20px;
+						display: block;
+						font-weight: 600;
+					}
+					> .model {
+						color: #796d5c;
+						display: block;
+						font-size: 14px;
+						margin-bottom: 20px;
+						> span {
+							color: #74695a;
+							font-size: 15px;
+						}
+					}
+					> .price {
+						font-size: 34px;
+						color: #000;
+						font-weight: 600;
+					}
+				}
+				.image {
+					> img {
+						width: 240px;
+						height: 170px;
+						background-color: transparent;
+						object-fit: cover;
+					}
+				}
+			}
+		}
+	}
+}

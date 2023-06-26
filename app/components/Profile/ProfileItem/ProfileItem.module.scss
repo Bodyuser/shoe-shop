@@ -1,0 +1,17 @@
+.item {
+	display: flex;
+	margin: 30px 0 50px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	> .title {
+		font-weight: 600;
+		margin-bottom: 10px;
+		font-size: 24px;
+		color: #f9ce40;
+	}
+	> .text {
+		font-size: 19px;
+		font-style: italic;
+	}
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'react-redux-toastr/src/styles/index';
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input,
+button {
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+.custom-select {
+	&__control {
+		background-color: transparent !important;
+		min-width: 30% !important;
+		border: none !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
+		border-bottom: 1px solid #f9ce40 !important;
+		&--menu-is-open {
+			border-color: darken(#f9ce40, 5%) !important;
+		}
+	}
+
+	&__value-container {
+		padding: 0 !important;
+		cursor: pointer !important;
+	}
+	&__input-container {
+		color: #f9ce40 !important;
+	}
+	&__indicator-separator {
+		display: none !important;
+	}
+	&__indicators {
+		cursor: pointer !important;
+	}
+	&__indicator {
+		color: #f9ce40 !important;
+		&:hover {
+			color: darken(#f9ce40, 5%) !important;
+		}
+	}
+	&__multi-value {
+		background-color: #f9ce40 !important;
+		&__label {
+			font-size: 16px !important;
+			color: #fff !important;
+		}
+		&__remove {
+			color: #fff !important;
+			background-color: transparent !important;
+			&:hover {
+				background-color: transparent !important;
+			}
+		}
+	}
+	&__menu {
+		background-color: #f9ce40 !important;
+		max-width: 30% !important;
+	}
+	&__option {
+		cursor: pointer !important;
+		color: #fff !important;
+		&--is-focused {
+			background-color: darken(#f9ce40, 10%) !important;
+		}
+		&--is-selected {
+			background-color: darken(#f9ce40, 10%) !important;
+		}
+	}
+	&-container {
+		> div {
+			outline: none !important;
+			box-shadow: none !important;
+		}
+		.form-control__control {
+			border-color: rgb(237, 82, 82) !important;
+			box-shadow: none !important;
+		}
+		&:hover,
+		&--menu-is-open {
+			border-color: #f9ce40 !important;
+		}
+		.form-control__indicators {
+			cursor: pointer !important;
+		}
+	}
+}

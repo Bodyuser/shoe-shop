@@ -1,0 +1,39 @@
+.field {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto 25px;
+	.input {
+		position: relative;
+		margin-bottom: 10px;
+		> input {
+			width: 100%;
+			border: 2px solid #f9ce40;
+			padding: 20px 60px;
+			border-radius: 30px;
+			font-size: 17px;
+		}
+		> svg {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			font-size: 26px;
+			left: 20px;
+		}
+		> button {
+			position: absolute;
+			right: 20px;
+			background-color: transparent;
+			top: 50%;
+			transform: translateY(-50%);
+			> svg {
+				font-size: 22px;
+			}
+		}
+	}
+	> .error {
+		color: #f00;
+	}
+}
