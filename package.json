@@ -34,13 +34,22 @@
     "react-select": "^5.7.0",
     "redux": "^4.2.0",
     "sass": "^1.57.1",
-    "string-strip-html": "^13.4.1",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+     "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "html-react-parser": "^3.0.8",
+    "html-to-draftjs": "^1.5.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "string-strip-html": "^13.0.6"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@types/js-cookie": "^3.0.2",
     "@types/react-redux-toastr": "^7.6.2",
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.3",
+    "@types/draft-js": "^0.11.10",
+    "@types/draftjs-to-html": "^0.8.1",
+    "@types/html-to-draftjs": "^1.4.0",
+    "@types/react-draft-wysiwyg": "^1.13.4"
   }
 }
