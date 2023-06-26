@@ -12,6 +12,7 @@ export const instance = axios.create({
 	withCredentials: true,
 	headers: {
 		'Content-Type': 'application/json',
+		'Access-Control-Allow-Origin': 'venerable-cascaron-f5e9d5.netlify.app',
 	},
 })
 
