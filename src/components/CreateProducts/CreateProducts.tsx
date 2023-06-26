@@ -32,6 +32,7 @@ interface IForm {
 	brand: string
 	imagePath: string
 	price: number
+	description: string
 }
 
 const CreateProducts: FC = () => {
